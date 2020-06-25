@@ -1,0 +1,21 @@
+.carouselWrapper {
+  overflow: hidden;
+  width: 90%;
+}
+
+.carouselImage {
+  width: 65%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  opacity: 0;
+}
+.nextBtn,
+.prevBtn {
+  position: relative;
+}
+
+.initial {
+  z-index: 100;
+  opacity: 1;
+}
